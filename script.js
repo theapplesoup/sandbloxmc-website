@@ -1,4 +1,4 @@
-document.getElementById("myBtn").addEventListener("click", () => setClipboard("sandbloxmc.net"));
+document.getElementById("myBtn").addEventListener("click", () => setClipboard("sandbloxmc.com"));
 
 async function setClipboard(text) {
   const type = "text/plain";
