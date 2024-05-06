@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Guide</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="guide.css">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/minecraftia" type="text/css"/>
+    </head>
+    <body>
+        <header class="hero">
+            <ul class="hero-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../map.html">Map</a></li>
+                <li><a href="introduction.html">Guide</a></li>
+                <li><a href="../rules.html">Rules</a></li>
+            </ul>
+            <div class="hero-title">
+                <img src="../assets/sandblox-logo.png" alt="SandbloxMC Logo">
+                <h1>Server Guide</h1>
+            </div>
+        </header>
+        <div class="container">
+            <div class="side-nav">
+                <ul>
+                    <li><a href="introduction.html">Introduction</a></li>
+                    <li><a href="joining-the-server.html">Joining the server</a></li>
+                    <li id="active"><a href="towns-and-nations.html">Towns & nations</a></li>
+                    <li><a href="economy.html">Economy</a></li>
+                    <li><a href="player-shops.html">Player shops</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <h1>Towns & nations</h1>
+                <p>
+                    SandbloxMC uses the Towny plugin to manage land claiming and town creation. This page provides you with basic information 
+                    about the plugin to get you started. For a full list of commands, visit the Towny website <a href="https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works">here</a>.
+                </p>
+                <h2>Joining a town</h2>
+                <ul>
+                    <li>Ask to join a town in chat, then use the <code>/accept</code> command to accept a player's invite.</li>
+                    <li>Type <code>/t spawn</code> to teleport to your town's spawn.</li>
+                    <li>You can use the generic <code>/town</code> command to see information about the town you reside in.</li>
+                </ul>
+                <h2>Creating a new town</h2>
+                <ul>
+                    <li>To create a new town where you're standing, type <code>/town new (town name)</code>. (This costs 64 gold)</li>
+                    <li><code>/t invite (player)</code> invites a player to your town.</li>
+                    <li><code>/t claim</code> claims the chunk you are standing in. (This costs 16 gold)
+                        <ul><li>Note: You can only claim chunks adjacent to your town</li></ul>
+                    </li>
+                </ul>
+                <h2>Joining a nation</h2>
+                <ul>
+                    <li><code>/n join (nation name)</code> allows you to join an open nation.</li>
+                        <ul><li>Note: To check if a nation is open use <code>/n (nation name)</code>.</li></ul>
+                    </li>
+                    <li><code>/t invite accept (nation name)</code> allows you to accept a nation invite.</li>
+                </ul>
+                <h2>Creating a new nation</h2>
+                <ul>
+                    <li>Creating a nation costs 1,000 gold. You must deposit this amount into your town bank with the command <code>/t deposit (amount)</code></li>
+                    <li>To create a new nation, type <code>/n new (nation name)</code>.</li>
+                    <li>You can invite other towns to your nation with <code>/n add (town name)</code>.</li>
+                    <li>You can add nation allys with <code>/n ally add (nation name)</code>.</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <ul class="hero-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../map.html">Map</a></li>
+                <li><a href="introduction.html">Guide</a></li>
+                <li><a href="../rules.html">Rules</a></li>
+            </ul>
+            <p>2024 SandbloxMC</p>
+        </footer>
+        
+        
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
