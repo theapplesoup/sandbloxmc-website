@@ -7,18 +7,13 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-h2 {
-    font-size: 20px;
-    font-weight: 600;
-}
-
 .hero {
     display: flex;
     flex-direction: column;
     margin: 0;
     padding-bottom: 50px;
     background-size: cover;
-    background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(29, 38, 113, 0.3)), url("assets/hero-bg.png");
+    background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(29, 38, 113, 0.3)), url("../assets/hero-bg.png");
     background-position: center;
     position: relative;
 }
@@ -80,15 +75,62 @@ h2 {
     width: 100%;
 }
 
-.content {
-    padding: 50px 20%;
-    padding-bottom: 0;
+.hero-ip {
+    font-family: 'Minecraft', sans-serif;
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    transform: scale(1);
+    align-self: center;
+    width: fit-content;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #101010;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    transition: 0.3s;
+    translate: 0 30px;
 }
 
+.hero-ip:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.hero-ip a {
+    color: #ffffff;
+    transform: translateY(3px);
+}
+
+.content {
+    padding: 70px 40px;
+}
+
+.authour {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.role-owner {
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #ff0000;
+}
 
 .article {
+    padding: 20px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    gap: 40px;
 }
 
 .article h1 {
@@ -104,21 +146,11 @@ h2 {
     color: #2e70c5;
 }
 
-.warning {
-    margin: 40px 20%;
-    padding: 60px 20px;
-    text-align: center;
-    background-color: #f0f0f0;
+.article img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
     border-radius: 10px;
-}
-
-.warning a {
-    font-weight: 600;
-    color: #2e70c5;
-}
-
-.text {
-    padding-left: 30px;
 }
 
 footer {
@@ -132,13 +164,8 @@ footer p {
     color: #ffffff;
 }
 
-@media screen and (max-width: 900px) {
-    .content {
-        margin-top: 30px;
-        padding: 0 10%;
-    }
-
-    .warning {
-        margin: 40px 10%;
+@media screen and (max-width: 800px) {
+    .article {
+        flex-direction: column;
     }
 }
