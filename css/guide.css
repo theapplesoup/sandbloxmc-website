@@ -172,3 +172,16 @@ table, td, th {
 th {
     background-color: #f5f5f5;
 }
+
+.recipes {
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.recipes img {
+    width: 240px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
