@@ -163,6 +163,19 @@ code {
     background-color: #f0f0f0;
 }
 
+.warning {
+    margin: 40px 0;
+    padding: 60px 40px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.warning a {
+    font-weight: 600;
+    color: #2e70c5;
+}
+
 table, td, th {
     padding: 10px 15px;
     border: 1px solid #dddddd;
