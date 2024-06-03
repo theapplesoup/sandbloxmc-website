@@ -198,3 +198,20 @@ th {
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
+
+.alert {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ffb923;
+    border-radius: 5px;
+    padding: 20px 30px;
+    font-size: 16px;
+    gap: 10px;
+    background-color: #fff5c9;
+}
+
+.alert-title {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}

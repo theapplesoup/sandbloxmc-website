@@ -172,6 +172,7 @@ code {
     background-color: #f0f0f0;
 }
 
+
 @media screen and (max-width: 800px) {
     .article {
         flex-direction: column;
